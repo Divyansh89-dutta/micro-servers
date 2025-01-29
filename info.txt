@@ -1,3 +1,22 @@
 user server port = 3001
 ride server port = 3002
 captain server port = 3003
+
+user sign testing in the postman is :-
+{
+    "message": "User created successfully",
+    "user": {
+        "_id": "65a0b5a2c1b3a8d3f4e7b9c2",
+        "username": "divyansh",
+        "email": "divyansh@gmail.com",
+        "__v": 0
+    },
+    "token": "your_jwt_token"
+}
+ in the from of raw from
+ for the login 
+ Body: (Select "raw" and JSON format)
+ {
+    "email": "divyansh@gmail.com",
+    "password": "123"
+}
